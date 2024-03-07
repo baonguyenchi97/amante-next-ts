@@ -1,6 +1,5 @@
 import Image from "next/image"
 import DarkModeToggle from "@/components/DarkModeToggle"
-import MyModal from "@/components/ModalTemplateKit"
 import FigmaCodePlugin from "@/components/FigmaCodePlugin"
 
 const person = [
@@ -86,7 +85,6 @@ export default function Page() {
             </form>
 
             <DarkModeToggle />
-            <MyModal />
             <FigmaCodePlugin />
         </div>
     )

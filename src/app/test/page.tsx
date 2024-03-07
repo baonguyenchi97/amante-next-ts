@@ -59,7 +59,9 @@ export default function Page() {
                     03
                 </div>
             </div>
-
+            <button className="m-10 w-10 h-10 transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-150">
+                Hover me
+            </button>
              <ul>
             {
                 person.map((people, index) => (

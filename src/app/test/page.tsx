@@ -1,5 +1,6 @@
 import Image from "next/image"
 import DarkModeToggle from "@/components/DarkModeToggle"
+import MyModal from "@/components/ModalTemplateKit"
 
 const person = [
     { imageUrl: 'https://www.kennedy-center.org/link/20bdb6ff187b4d69ba1651f13071a235.aspx', name: 'adam sandler', email: 'adamsandler123@gmail.com' },
@@ -84,6 +85,7 @@ export default function Page() {
             </form>
 
             <DarkModeToggle />
+            <MyModal />
         </div>
     )
 }
